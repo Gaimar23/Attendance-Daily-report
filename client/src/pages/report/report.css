@@ -1,0 +1,36 @@
+.report{
+    width: 100%;
+}
+
+.report .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 500px; */
+}
+
+.report .top .logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.report .top .logo .monLogo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.report .title{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.report .reportContent{
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}

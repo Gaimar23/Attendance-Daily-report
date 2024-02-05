@@ -1,0 +1,8 @@
+.list{
+    min-height: 100vh;
+    background: linear-gradient(to top,rgba(74, 224, 216, 0),rgba(176, 248, 246, 0.014)),url("../../assets/images/backgroundApp_01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

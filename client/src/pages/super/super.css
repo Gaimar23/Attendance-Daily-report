@@ -1,0 +1,82 @@
+.super{
+    min-height: 100vh;
+    width: 100%;
+    /* display: none; */
+    background: linear-gradient(to top,rgba(74, 224, 216, 0),rgba(176, 248, 246, 0.014)),url("../../assets/images/backgroundApp_01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.super .mesIcones{
+    position: absolute;
+    top: 45px;
+    right: 140px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.super .mesIcones .icon{
+    width: 30px;
+    height: 30px;
+    color: #344871;
+}
+
+.super .mesIcones .print,.super .mesIcones .download{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.super .mesIcones .print:hover,.super .mesIcones .download:hover{
+    transform: scale(1.15);
+    border-bottom: 4px solid #979aa1;
+}
+
+.super .dataTables .deleteRecord{
+    display: none;
+}
+
+.super .dataTables .editRecord{
+    display: none;
+    
+}
+
+.super .dataTables{
+    width: 80%;
+    margin: 200px auto auto auto;
+    border-radius: 20px;
+}
+
+.super .errorMessage{
+    position: absolute;
+    top: 120px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 8px solid #344871;
+    color: #344871;
+    opacity: 0.4;
+    transform: translateX(100%);
+    transition: all 1s ease;
+}
+
+.super .errorMessage.animate{
+    opacity: 1;
+    transform: translateX(0%)
+}
+
+/* @keyframes animation10 {
+    0%{transform: translateX(100%);}
+    100%{transform: translateX(0%);}
+} */

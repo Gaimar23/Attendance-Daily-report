@@ -1,0 +1,81 @@
+.userEmp{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(to top,rgba(74, 224, 216, 0),rgba(176, 248, 246, 0.014)),url("../../assets/images/backgroundApp_01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.userEmp .containerUser{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.userEmp .containerUser .welcome{
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(98, 104, 104);
+    font-size: 25px;
+}
+
+.userEmp .containerUser .welcome span{
+    color: rgb(143, 155, 158);
+    font-size: 27px;
+    font-weight: 800;
+    border-bottom: 2px solid white;
+}
+
+.userEmp .containerUser .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    width: 100%;
+    margin: 130px 0 40px 0  ;
+}
+
+.userEmp .containerUser .buttons .btn{
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    background-color: white;
+    font-size: 35px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: #344871;
+    transition: all 0.5s ease;
+}
+
+.userEmp .containerUser .buttons .afternoon.btn{
+    background-color: transparent;
+    color: white;
+}
+
+.userEmp .containerUser .buttons .afternoon.btn:hover{
+    background-color: white;
+    color: #344871;
+}
+
+.userEmp .containerUser .buttons .btn:hover{
+    color: white;
+    background-color: transparent;
+    transform: scale(1.2);
+}
+
+.userEmp .containerUser .tableData{
+    width: 80%;
+    margin: auto;
+}
+
+.css-t89xny-MuiDataGrid-columnHeaderTitle{
+    text-decoration: underline;
+}

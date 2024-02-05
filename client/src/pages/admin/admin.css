@@ -1,0 +1,119 @@
+.admin{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to top,rgba(74, 224, 216, 0),rgba(176, 248, 246, 0.014)),url("../../assets/images/backgroundApp_01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.admin .logoCompany{
+    margin-bottom: 210px;
+    opacity: 0;
+}
+
+.admin .adminNav{
+    width: 100%;
+    transition: all 1s ease;
+}
+
+.admin .adminNav .cardNav{
+    width: 160px;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 5px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    /*  */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /*  */
+    z-index: 5;
+    background-color: #344871;
+    box-shadow: 0 2px 6px white;
+}
+
+/* .admin .adminNav:hover  .cardNav{
+    transform: scale(1.2);
+} */
+
+.admin .adminNav .cardNav:nth-child(2){
+    transform: scale(0.85);
+    top: 30px;
+    /* background-color: red; */
+    /* z-index: 3; */
+    transition: all 1s ease;
+    transition-delay: 0.5s;
+}
+
+.admin .adminNav .cardNav:nth-child(1){
+    transform: scale(0.75);
+    top: 5px;
+    /* background-color: green; */
+    z-index: 2;
+    transition: all 1s ease;
+    transition-delay: 1s;
+}
+
+.admin .adminNav .cardNav:nth-child(3){
+    /* animation: anim01 1s linear ; */
+    transition: all 1s ease;
+}
+
+.admin .adminNav.animation .cardNav:nth-child(3){
+    right: 460px;
+}
+
+.admin .adminNav.animation .cardNav:nth-child(2){
+    top: 60px;
+    transform: scale(1);
+    right: 240px;
+}
+
+
+.admin .adminNav.animation .cardNav:nth-child(1){
+    top: 60px;
+    transform: scale(1);
+}
+
+/* .admin .adminNav.animation .cardNav:active{
+    transition: none 0s none;
+    transition-delay: unset;
+    transform: scale(0.9);
+} */
+
+
+
+/* @keyframes anim01 {
+    0%{opacity:  0.8;}
+    100%{opacity: 1; right: 520px;}
+} */
+
+.admin .dataTables{
+    width: 80%;
+    margin: 200px auto auto auto;
+    border-radius: 20px;
+}
+
+.css-i4bv87-MuiSvgIcon-root{
+    color: white;
+}
+
+.css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar{
+    color: white;
+}
+
+.css-78c6dr-MuiToolbar-root-MuiTablePagination-toolbar .css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon{
+    color: white;
+}
+
+.css-16c50h-MuiInputBase-root-MuiTablePagination-select{
+    color: white;
+}

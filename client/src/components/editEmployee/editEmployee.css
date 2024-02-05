@@ -1,0 +1,111 @@
+.formContainer04{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.747);
+    min-height: 100vh;
+    z-index: 50;
+    display: none;
+}
+
+.formContainer04 .formData04{
+    width: 50%;
+    box-shadow: 0 0 6px white;
+    border-radius: 15px;
+    background: linear-gradient(to top,#344871,#344871);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+
+}
+
+.formContainer04 .formData04 .info01{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.formContainer04 .formData04 .info01 .left{
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+}
+
+.formContainer04 .formData04 .info01 .right{
+    display: flex;
+    flex-flow: column;
+    width: 45%;
+}
+
+.formContainer04 .formData04 .info01 .left .inputCommon,
+.formContainer04 .formData04 .info01 .right .inputCommon,
+.formContainer04 .formData04 .info01 .right .selectCommon{
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(5, 211, 211, 0.993);
+    background-color: rgb(255, 255, 255);
+    color: rgba(3, 102, 102, 0.993);
+    /* width: 120%; */
+}
+
+.formContainer04 .formData04 .info01 .right .inputCommon::placeholder,
+.formContainer04 .formData04 .info01 .left .inputCommon::placeholder{
+    color: rgb(182, 180, 180);
+    font-size: 15px;
+}
+
+.formContainer04 .formData04 .info01 .right .selectCommon{
+    padding: 8.5px 15px;
+}
+
+
+.formContainer04 .formData04 .btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.formContainer04 .formData04 .btns .btnAction{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(5, 211, 211, 0.993);
+    width: 30%;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #344871;
+    background-color: white;
+    transition: all 0.5s ease;
+}
+
+.formContainer04 .formData04 .btns .btnAction:hover{
+    color: white;
+    border-color: white;
+    background-color: transparent;
+}
+
+.formContainer04 .formData04 .closeForm04{
+    padding: 6px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border-radius: 30%;
+    border: 2px solid rgba(5, 211, 211, 0.993);
+    color: rgba(5, 211, 211, 0.993);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
